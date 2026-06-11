@@ -4,15 +4,83 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>需求原型目录</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #0f1117;
+      color: #f5f5f5;
+      padding: 40px;
+      line-height: 1.7;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #a8b0c2;
+      margin-bottom: 28px;
+    }
+
+    .card {
+      background: #1b1f2a;
+      border: 1px solid #2c3344;
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 18px;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .desc {
+      color: #a8b0c2;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    a {
+      color: #7aa2ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+  </style>
 </head>
 <body>
   <h1>需求原型目录</h1>
-  <p>这里用于存放多个需求原型。</p>
+  <div class="subtitle">这里用于存放多个需求原型，每个需求一个独立目录。</div>
 
-  <ul>
-    <li><a href="./settle-recommend-card/">结算页推荐卡片</a></li>
-    <li><a href="./friend-card/">加好友推荐卡片</a></li>
-    <li><a href="./main-flow/">主流程图</a></li>
-  </ul>
+  <div class="card">
+    <div class="card-title">语音房好友推荐</div>
+    <div class="desc">包含加好友点击反馈、结算页推荐卡片、镜像文案对照图。</div>
+
+    <ul>
+      <li>
+        <a href="./friend-recommend-card/">需求入口页</a>
+      </li>
+      <li>
+        <a href="./friend-recommend-card/加好友点击反馈.html">加好友点击反馈</a>
+      </li>
+      <li>
+        <a href="./friend-recommend-card/结算页推荐卡片.html">结算页推荐卡片</a>
+      </li>
+      <li>
+        <a href="./friend-recommend-card/镜像文案对照图.html">镜像文案对照图</a>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>
